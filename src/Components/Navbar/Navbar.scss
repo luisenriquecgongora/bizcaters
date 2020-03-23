@@ -1,0 +1,135 @@
+.container-navbar{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+  width: 100vw;
+  height: 60px;
+  background-color: #1E60C4;
+  border-radius: 0px 0px 60px 0px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 15px rgba(44, 44, 44, 0.8);
+}
+
+.container-logo-toolbar{
+  max-height: 40px;
+  margin-right: auto;
+  margin-left: 60px;
+  @media only screen and (max-width: 600px) {
+    margin-left: auto;
+  }
+}
+
+.logo-toolbar{
+  max-height: 40px;
+}
+
+.container-navbar-top{
+  position: fixed;
+  display: flex;
+  align-items:center;
+  justify-content: flex-end;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+  width: 100vw;
+  height: 60px;
+  background-color: #1E60C4;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 15px rgba(44, 44, 44, 0.8);
+}
+
+.link-nav-top{
+  padding: 10px;
+  height: 60px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-sizing: border-box;
+  align-self: flex-end;
+  text-decoration: none;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  @media only screen and (max-width: 600px) {
+    display: none !important;
+  }
+  &:hover{
+    color: #999999;
+  }
+}
+
+.menu{
+  cursor: pointer;
+  position: absolute;
+  left: 10px;
+  width: 40px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 25px;
+  color: white;
+  margin-right: auto;
+}
+
+.drawer-container{
+  height: 100vh;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.container-logo-drawer{
+  padding: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+}
+
+.link-drawer{
+  width: 100% !important;
+  box-sizing: border-box;
+  color: black;
+  background-color: rgba(0,0,0,0.0);
+  height: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  &:hover{
+    background-color: rgba(0,0,0,0.1);
+  }
+}
+
+.divider{
+  width: 60%;
+  text-align: left;
+  text-transform: uppercase;
+  border-width: 1px 0px 0px 0px;
+  border-color: rgba(44,44,44,0.4);
+  border-style: solid;
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+  color: black;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.logo-drawer{
+  height: auto;
+  width: 100%;
+}

@@ -1,0 +1,13 @@
+.center-aligned{
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.tnc-container{
+  margin-top: 20px;
+  width: 600px;
+  max-width: 95%;
+}

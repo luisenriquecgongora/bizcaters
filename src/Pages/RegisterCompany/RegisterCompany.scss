@@ -1,0 +1,133 @@
+.request-container{
+  width: 100vw;
+  min-height: 100vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .title-request{
+    width: 900px;
+    max-width: 95%;
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lato';
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .subtitle-request{
+    width: 900px;
+    max-width: 95%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  .select-container{
+    width: 100%;
+    font-family: 'Lato';
+    margin-top: 1px;
+    margin-bottom: 8px;
+  }
+
+  .tag-part{
+    margin-top: 40px;
+    padding-top: 2px;
+    font-size: 14px;
+    color: rgba(44,44,44,0.4);
+    font-family: 'Lato';
+    text-transform: uppercase;
+    padding-left: 50px;
+    text-align: left;
+    border: 1px solid rgba(44,44,44,0.1);
+    border-width: 1px 0px 0px 0px;
+    margin-bottom: 20px;
+    text-align: right;
+  }
+
+  .form-container{
+    width: 900px;
+    max-width: 95%;
+    min-height: 200px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 5px;
+  }
+
+  .comment-label{
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Lato';
+    margin-top: 10px;
+  }
+
+  .comment{
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Lato';
+    border-width: 1px 1px 1px 1px;
+    border-color: rgba(44,44,44,0.95);
+    outline: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 7px;
+    box-sizing: border-box;
+  }
+
+  .input-form{
+    width: 100%;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Lato';
+    border-width: 0px 0px 1px 0px;
+    border-color: rgba(44,44,44,0.95);
+    height: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 7px;
+    box-sizing: border-box;
+    &:hover{
+      padding-bottom: 6px;
+      border-width: 0px 0px 2px 0px;
+    }
+    &:active{
+      padding-bottom: 6px;
+      border-width: 0px 0px 2px 0px;
+    }
+  }
+
+  .button-request{
+    z-index: 2;
+    max-width: 90%;
+    width: 400px;
+    border: none;
+    color: white;
+    height: 45px;
+    background: #2F80ED;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.8);
+    &:hover{
+      box-shadow: 2px 2px 7px rgba(44, 44, 44, 0.8);
+    }
+    &:active{
+      box-shadow: 2px 2px 3px rgba(44, 44, 44, 0.8);
+    }
+    -webkit-transition: box-shadow 0.1s; /* Safari prior 6.1 */
+    transition: box-shadow 0.1s;
+  }
+}

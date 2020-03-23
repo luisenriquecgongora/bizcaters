@@ -1,0 +1,50 @@
+.footer-container{
+  width: 100vw;
+  min-height: 10vh;
+  background-color: #303F9F;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10px;
+
+  .logo-download{
+    max-width: 200px;
+  }
+
+  .logo-footer{
+    max-width: 300px;
+    margin-top: 20px;
+  }
+
+  .title-footer{
+    color: white;
+    font-size: 40px;
+    font-style: 'Lato';
+  }
+
+  .link-footer{
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-style: 'Lato';
+  }
+
+  .container-icons{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .container-icon{
+    margin: 20px;
+    .icon{
+      width: 24px;
+    }
+  }
+}
